@@ -39,6 +39,10 @@ body {
     color: rgb(252, 204, 48);
 }
 
+.toggle-menu {
+    display: none;
+}
+
 nav {
     display: flex;
     align-items: center;
@@ -135,6 +139,7 @@ nav a:hover {
     -webkit-box-pack: center;
     justify-content: center;
     gap: 60px;
+    margin-bottom: 160px;
 }
 
 .cards-template {
@@ -150,7 +155,6 @@ nav a:hover {
     -webkit-box-pack: center;
     justify-content: center;
     transition: all 0.25s ease 0s;
-    margin-bottom: 160px;
 }
 
 .cards-template:hover {

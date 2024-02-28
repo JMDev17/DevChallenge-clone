@@ -1,0 +1,30 @@
+@media(max-width: 950px) {
+    nav {
+        margin-left: 4%
+    }
+
+    .nav-btn {
+        display: flex;
+        padding: 3px 20px;
+    }
+
+}
+
+
+@media (max-width: 750px) {
+    .main-content h1 {
+     font-size: 45px;
+    }  
+
+    nav {
+        display: none;
+    }
+
+    .toggle-menu {
+        display: block;
+        color: white;
+        font-size: 30px;
+        margin-left: 110px;
+    }
+
+}
