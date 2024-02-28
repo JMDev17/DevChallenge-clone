@@ -8,6 +8,10 @@
         padding: 3px 20px;
     }
 
+   .char-img img {
+    margin-left: 5%;
+   }
+
 }
 
 
@@ -25,6 +29,135 @@
         color: white;
         font-size: 30px;
         margin-left: 110px;
+        cursor: pointer
     }
 
+    .char-img img {
+     height: 220px;
+     width: 250px;
+     margin-left: 10%;
+    }
+
+    .form-content h3 {
+        font-size: 20px;
+    }
+
+    .form-content p {
+        font-size: 12px;
+    }
+
+    .form-content input {
+        height: 30px;
+        width: 15em;
+        font-size: 18px;
+    }
+
+    .form-content a {
+        width: 200px;
+    
+}
+
+}
+
+@media (max-width: 600px) {
+   
+    .main-content h1 {
+        font-size: 35px;
+        border-right: 3px solid #5c0d78;   
+       
+    }
+
+    .main-content p {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+   
+    .main-content a {
+        padding: 10px 30px;
+        font-weight: 700;
+    }
+   
+   
+    .content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .char-img {
+         margin-right: 15%;
+       }
+}
+
+
+@media (max-width: 470px) {
+   
+    .main-content h1 {
+        font-size: 26px;
+        border-right: 3px solid #5c0d78;   
+       
+    }
+
+    .main-content p {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+   
+    .main-content a {
+        padding: 10px 30px;
+        font-weight: 700;
+    }
+   
+   
+    .form-content h3 {
+        font-size: 18px;
+       text-align: center;
+    }
+
+    .form-content p {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .form-content input {
+        height: 25px;
+        width: 12em;
+        font-size: 15px;
+        margin-left: 70px;
+    }
+
+    .form-content a {
+        width: 150px;
+        align-items: center;
+        margin-left: 80px;
+        font-size: 15px;
+        height: 50px;
+
+}
+
+.footer-content {
+    padding: 30px 30px;
+}
+
+.footer-content h2 {
+    font-size: 20px;
+}
+}
+
+@media (max-width: 360px) {
+    .toggle-menu {
+        margin-left: 40px;
+    }
+
+    .main-content h1 {
+        font-size: 22px;   
+    }
+
+    .main-content p {
+        font-size: 11px;
+    }
+   
+    .main-content a {
+        padding: 10px 20px;
+    }
 }
