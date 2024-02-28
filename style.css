@@ -43,7 +43,15 @@ body {
     display: none;
 }
 
-nav {
+nav.active {
+    height: 450px;
+   }
+   
+   nav.active ul {
+   opacity: 1;
+   }
+
+.navlinks {
     display: flex;
     align-items: center;
     gap: 20px;

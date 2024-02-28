@@ -1,5 +1,5 @@
 @media(max-width: 950px) {
-    nav {
+    .navlinks {
         margin-left: 4%
     }
 
@@ -21,15 +21,44 @@
     }  
 
     nav {
-        display: none;
-    }
+        height: 0;
+        position: absolute;
+        top: 0px;
+        left: 10px;
+        right: 0;
+        width: 100vw;
+        background: #0d0d0e;
+        transition: 0.4s;    
+        overflow: hidden;
+       }
+
+
+       .navlinks {
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+       }
+
+       .navlinks li {
+        margin-top: 30px;
+       }
+
+       .nav-btn {
+        margin-top: 20px;
+       }
+       
+
 
     .toggle-menu {
         display: block;
         color: white;
         font-size: 30px;
         margin-left: 110px;
-        cursor: pointer
+        cursor: pointer;
+        z-index: 1000;
     }
 
     .char-img img {

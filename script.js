@@ -19,3 +19,12 @@ function showText(id, text, interval) {
 }
 
 showText(id, text, interval)
+
+
+const toggleMenu = document.querySelector('.toggle-menu');
+const navBar = document.querySelector('nav')
+
+toggleMenu.onclick = function() {
+    navBar.classList.toggle('active');
+
+}
